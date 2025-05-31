@@ -293,7 +293,6 @@ img {
 
 .team-icon-item {
   display: flex;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link {
@@ -304,6 +303,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link:hover,
@@ -449,5 +449,6 @@ img {
   background-color: #31d0aa;
 }
 
-.team-social-network-item {
+.footer-list-item {
+  display: flex;
 }
